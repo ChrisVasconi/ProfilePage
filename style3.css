@@ -49,9 +49,7 @@ button {
     flex: 3;
     margin-right: 30px;
     height: 800px;
-    border-style: ridge;
-    background-color: teal;
-    border-color: black;
+    margin-top: 12px;
 }
 
 .topbar {
@@ -81,6 +79,7 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 60px;
     font-style: oblique;
+    background-color: aqua;
 
 }
 
@@ -116,7 +115,10 @@ a{
 }
 
 .box1 {
-    margin-top: 20px;   
+    margin-top: 20px;
+    background-color: aqua;
+    border-style: ridge; 
+    border-color: black;  
 }
 
 .box1 h1{
@@ -124,6 +126,7 @@ a{
     color: white;
     border-color: black;
     border-style: ridge;
+    background-color: aquamarine
 }
 
 .box1 p {
@@ -139,12 +142,9 @@ a{
 
 .rightcolumn {
     flex: 2;
-    margin-top: 5px;
-    height: 800px;
-    background-color: blanchedalmond;
-    border-style: ridge;
-    background-color: teal;
-    border-color: black;
+    height: 600px;
+
+    
 }
 
 .box1 a {
@@ -167,14 +167,18 @@ a{
 .box2 {
 
     font-size: 13pt;
-    color: white; 
+    color: white;
+    background-color: aquamarine;
     border-style: ridge;
     border-color: black;
 }
 
 .box3 {
-    height: 500px;
+    height: 470px;
     align-items: center;
+    background-color: aqua;
+    border-style: ridge;
+    border-color: black;
 }
 
 .box3 p{
@@ -182,6 +186,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
     display: flex;
+    background-color: aqua;
 }
 
 
@@ -211,4 +216,9 @@ a{
     display: flex;
     justify-content: space-evenly;
     margin-right: 10px;
+}
+
+.box1 View More{
+background-color: aquamarine;
+
 }
